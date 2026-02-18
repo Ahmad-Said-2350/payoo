@@ -42,13 +42,13 @@
         <h1 class="text-2xl leading-7.5 font-bold">Welcome to Pay<span class="text-primary">oo</span></h1>
     <p class="text-neutral/50">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
 
-    <div class="btns grid grid-cols-3 gap-4">
-        <button class="btn flex-col h-full py-5 px-6.5 btn-primary btn-soft">
+    <div  class="btns grid grid-cols-3 gap-4">
+        <button onclick="showOnly('add-money')" class="btn flex-col h-full py-5 px-6.5 btn-primary btn-soft">
             <img src="./assets/opt-1.png" alt="">
             <p>Add Money</p>
 
         </button>
-        <button class="btn flex-col h-full py-5 px-6.5 btn-primary btn-soft">
+        <button onclick="showOnly('cashout')" class="btn flex-col h-full py-5 px-6.5 btn-primary btn-soft">
             <img src="./assets/opt-2.png" alt="">
             <p>Cashout</p>
 
@@ -80,7 +80,7 @@
     </section>
 
 
-    <section id="add-money" class="w-11/12 mx-auto py-4">
+    <section id="add-money" class="w-11/12 mx-auto py-4 hidden">
                 <h2 class="text-[18px] font-semibold mb-4">Add Money</h2>
 
                     <div class="card bg-base-100 w-full   shadow  rounded-bl-3xl">
@@ -127,7 +127,7 @@
 
 
 
-    <section id="Cash Out" class="w-11/12 mx-auto py-4">
+    <section id="cashout" class="w-11/12 mx-auto py-4">
         <h2 class="text-[18px] font-semibold mb-4">Cash Out</h2>
 
         <div class="card bg-base-100 w-full   shadow  rounded-bl-3xl">
