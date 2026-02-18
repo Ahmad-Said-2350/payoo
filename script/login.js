@@ -11,7 +11,7 @@ document.getElementById("login-btn").addEventListener("click",function(){
 
     if(contactNumber === "01342179060" && pin === "2350"){
         alert("Login Success")
-        window.location.assign("home.html")
+        window.location.assign("/payoo/home.html")
     }
     else{
         alert("Login Failed")
