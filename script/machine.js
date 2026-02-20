@@ -20,9 +20,15 @@ function setBalance (value){
 function showOnly (id){
     const addMoney = document.getElementById("add-money");
     const cashOut = document.getElementById("cashout");
+    const transfer = document.getElementById("transfer");
+    const getBonus = document.getElementById("getBonus");
+    const payBil = document.getElementById("payBill");
     // console.log(`Add Money- ${addMoney}, CashOut ${cashOut}`);
     addMoney.classList.add("hidden");
     cashOut.classList.add("hidden");
+    transfer.classList.add("hidden");
+    getBonus.classList.add("hidden");
+    payBil.classList.add("hidden");
     console.log(id);
 
     const selected =  document.getElementById(id);

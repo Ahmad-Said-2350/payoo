@@ -45,6 +45,7 @@ else{
 
 
 
+
 // document.getElementById("CashOut-btn").addEventListener("click",function(){
 
 //     const cashOutNumberInput = document.getElementById("CashOut-number");
