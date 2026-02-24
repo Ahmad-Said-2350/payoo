@@ -22,6 +22,8 @@ if(pin === "2350"){
     alert(`Add Money Success form${bankAccount} 
         at ${new Date()}`);
     setBalance(newBalance);
+addTransactionToHistory("Add Money", Number(amount), bankAccount);
+
 }
 else{
     alert("Invalid pin");

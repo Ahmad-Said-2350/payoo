@@ -68,7 +68,7 @@
             <p>Pay Bill</p>
 
         </button>
-        <button class="btn flex-col h-full py-5 px-6.5 btn-primary btn-soft">
+        <button onclick="showOnly('transactions')" class="btn flex-col h-full py-5 px-6.5 btn-primary btn-soft">
             <img src="./assets/opt-6.png" alt="">
             <p>Transactions</p>
 
@@ -268,6 +268,18 @@
     </section>
 
 
+    <section id="transactions" class="w-11/12 mx-auto py-4 hidden">
+    <h2 class="text-[18px] font-semibold mb-4">Transaction History</h2>
+    <div class="card bg-base-100 w-full shadow rounded-bl-3xl">
+        <div class="card-body">
+            <ul id="transaction-list" class="space-y-3">
+                <!-- Transactions এখানে দেখাবে -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+
     
 
 
@@ -277,5 +289,7 @@
         <script src="./script/getBonus.js"></script>
         <script src="./script/pay.js"></script>
     <script src="./script/CashOut.js"></script>
+<script src="./script/transactions.js"></script>
+
 </body>
 </html>

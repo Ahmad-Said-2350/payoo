@@ -27,6 +27,8 @@ const pin = getValueFormInput("CashOut-pin");
 if(pin === "2350"){
     alert("cashOut Successfull");
     setBalance(newBalance);
+    addTransactionToHistory("Cashout", -Number(cashOutAmount), cashOutNumber);
+
     // console.log("newBalance",newBalance);
 }
 else{

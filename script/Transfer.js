@@ -26,6 +26,8 @@ if(pin === "2350"){
     alert("Transfer Successfull");
     setBalance(newBalance);
     // console.log("newBalance",newBalance);
+addTransactionToHistory("Transfer", -Number(cashOutAmount), cashOutNumber);
+
 }
 else{
     alert("Invalid Pin")

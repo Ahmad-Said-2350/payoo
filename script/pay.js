@@ -22,6 +22,8 @@ if(pin === "2350"){
     alert(`pay Money Success form${payAccount} 
         at ${new Date()}`);
     setBalance(newBalance);
+    addTransactionToHistory("Pay Bill", -Number(amount), payAccount);
+
 }
 else{
     alert("Invalid pin");

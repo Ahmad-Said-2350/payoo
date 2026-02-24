@@ -27,6 +27,8 @@ let bonusAmount = 0;
     const newBalance = currentBalance + bonusAmount;
 
     setBalance(newBalance);
+    addTransactionToHistory("Get Bonus", bonusAmount, coupon);
+
 
     alert(`Bonus Added Successfully! ${bonusAmount}`);
 
